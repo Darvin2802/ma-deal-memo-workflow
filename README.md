@@ -63,11 +63,18 @@ Typical sectors:
 
 ## Quick start
 
+The repo includes two prompt versions:
+- `prompt/transaction_memo_prompt.md` — cleaned working version for general use
+- `prompt/transaction_memo_prompt_original_raw.md` — original full-length raw version
+
+Recommended flow:
 1. Open `prompt/transaction_memo_prompt.md`
 2. Copy the workflow prompt
 3. Replace the placeholders with your deal clue
 4. Run it in your preferred LLM
 5. Compare the output against the example files in `examples/`
+
+Use `prompt/transaction_memo_prompt_original_raw.md` if you want the original uncompressed version of the workflow prompt.
 
 ## Example cases in this repo
 
@@ -85,7 +92,8 @@ Typical sectors:
 
 ## Repo structure
 
-- `prompt/transaction_memo_prompt.md` — main workflow prompt
+- `prompt/transaction_memo_prompt.md` — cleaned working prompt for general use
+- `prompt/transaction_memo_prompt_original_raw.md` — original full-length raw prompt version
 - `docs/methodology.md` — how the workflow is meant to operate
 - `docs/source_policy.md` — source hierarchy and evidence rules
 - `docs/limitations.md` — known limitations
